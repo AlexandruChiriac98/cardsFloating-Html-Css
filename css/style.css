@@ -10,7 +10,9 @@ header{
 }
 
 img{
-    width: 5em;
+    width: 7em;
+    float: left;
+    margin-right: 1em;
 }
 
 h1{
@@ -18,18 +20,48 @@ h1{
     margin: 1em;
 }
 
+h2{
+    color: white;
+    font-size: medium;
+}
+
+small{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+
 [class*="card-"]{
-    width: 13em;
-    height: 5em;
+    width: 22em;
+    height: 7em;
     background-color: black;
-    border: 1px solid black;
     margin: 2em 4em;
+    border-bottom: 0.3em groove gray;
+    border-right: 0.3em groove gray;
+    border-radius: 0.3em;
+}
+
+.n{
+    padding-top: 0.7em;
+}
+
+.m-top{
+    display: block;
+    margin-top: 0.7em;
 }
 
 .b-container{
-    width: 920px;
+    width: 1300px;
+    height: 160px;
     margin: 4em auto;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.m-left-neg{
+    margin-left: -12px;
 }
 
 .card-1{
